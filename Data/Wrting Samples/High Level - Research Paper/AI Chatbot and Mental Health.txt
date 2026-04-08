@@ -1,0 +1,108 @@
+As the first RCT of its kind, our study supports the feasibility,
+acceptability, and effectiveness of a fine-tuned,
+fully GenAI–powered chatbot for treating mental health symptoms. Users demonstrated sustained engagement
+and rated their alliance with Therabot as comparable
+to human therapists during the 4-week trial. Critically,
+as compared with the WLC, Therabot users showed a
+greater reduction in depression, anxiety, and CHR-FED
+symptoms at postintervention (4 weeks) and at follow-up
+(8 weeks). We posit that Therabot’s success is driven by
+three main factors. First, akin to effective rule-based conversational
+agents,18 Therabot is rooted in evidence-based
+psychotherapies for anxiety,35 depression,36 and weight
+concerns.37 Second, users had unrestricted access to
+Therabot, allowing for any time–anywhere interactions.
+Notably, the ability to access therapeutic support when
+most needed, regardless of the time or location, may be
+one of the most significant advantages of DTx. Third,
+unlike existing chatbots for mental health treatment,
+Therabot was powered by Gen-AI, allowing for natural,
+highly personalized, open-ended dialogue. Moreover, we
+argue that the Gen-AI approach promoted the therapeutic
+alliance, a critical nonspecific mediator of change in
+psychotherapy.38 Although some evidence supports developing
+a therapeutic alliance with rule-based agents,19 we see such a bond as inherently limited compared with that
+possible with Gen-AI–powered agents; Gen-AI provides
+greater capacity for personalized adaptation and more
+closely resembles human–human interaction. Our results
+suggest that, within 4 weeks, participants were able to
+develop a working alliance comparable to that shown in
+an outpatient psychotherapy sample,32 with use at consistently
+high rates.
+Although existing companion Gen-AI chatbots can be
+highly engaging, they are not trained or evaluated for treating
+clinical-level mental health symptoms. Such chatbots
+may also be compromised by competing interests, such as
+user engagement or profit, which may be at odds with best
+practices for treatment.39 Therefore, Gen-AI conversational
+agents tailored to integrate both evidence-based techniques
+and important nonspecific factors contributing to psychotherapy
+outcomes represent a significant opportunity to
+provide scalable, on-demand, and effective mental health
+treatment. The nascency of Gen-AI and associated risks
+have likely contributed to the absence of a clinically validated
+Gen-AI chatbot for mental health treatment. Indeed, the nondeterministic nature of Gen-AI models introduces
+the possibility of hallucinations and incorrect or potentially
+harmful content.22 While human-delivered therapy is not
+immune to patient iatrogenesis,40 such effects in Gen-AI
+models have the potential to impact more people and are
+less regulated. We emphasize the need to understand Gen-AI’s potential
+role and risks associated with mental health treatment and
+also the need for guardrails and close human supervision
+while testing such methods. All content was closely supervised
+for quality and safety in our trial, with rapid expert
+intervention available. This approach may continue to be
+necessary when testing similar future models to ensure
+safety. In addition, given the inscrutable black-box nature
+of Gen-AI models, the inner processes are difficult or
+impossible to understand analytically. In this way, Gen-AI
+models are similar to human minds — intractable in complexity
+and predominantly studied by the data they produce
+— and thus may require extensive observation to obtain a
+reliable assessment.
+Our results have important implications, forming the early
+foundational evidence for the use of fine-tuned Gen-AI–
+powered chatbots in mental health treatment. Therabot
+shows promise as a means to scale evidence-based therapies
+in a way that maintains a high degree of personalization
+and engagement. Furthermore, our approach enables
+novel translations of therapeutic techniques that are not
+possible in rule-based agents. Consider, for instance,
+detailed and personalized imaginal exposures prompted by
+Gen-AI agents. Interventions dependent on the therapeutic
+alliance or specific patient–therapist interactions may also
+benefit from the integration of Gen-AI chatbots. 
+Our study has notable strengths, including a nationally
+recruited, demographically diverse, moderate sample size.
+Furthermore, unlike many digital mental health studies,41
+Therabot ran on both Android and iOS devices, increasing
+generalizability. However, we also acknowledge several
+limitations. First, given our recruitment strategy, there
+was potential for selection bias toward younger, more
+technologically minded participants who were open to AI.
+However, this may also resemble the most likely end users.
+Relatedly, up-front disclosure of a monetary incentive may
+have introduced selection bias, favoring participants who
+were motivated financially. Second, the characteristic of
+WLC RCTs is that there was potential for differential contact
+between the intervention and control group. We helped
+mitigate this by planning equivalent contact between
+groups whenever possible. Last, our follow-up period was
+limited to 4 weeks postintervention (weeks 4–8). While this
+allowed for testing early effectiveness and safety, longer
+studies are needed to assess the durability of Therabot’s
+effectiveness.
+Overall, results from the Therabot RCT are highly promising.
+We found high engagement and acceptability of the
+intervention, as well as symptom decreases while maintaining
+a therapeutic alliance comparable to that of human
+therapists and their patients. Future work may extend the
+range of psychopathologies treated (e.g., obsessive–compulsive
+disorders), the settings in which Gen-AI chatbots are
+provided (e.g., emergency rooms), and the role of the Gen-
+AI chatbot (e.g., adjunctive to in-person psychotherapy).
+Furthermore, future work should build on our descriptive
+user engagement metrics to define clinical thresholds pertaining
+to minimal doses of Gen-AI–driven therapies. Our
+study provides key groundwork for the development of
+Gen-AI chatbots for mental health treatment.

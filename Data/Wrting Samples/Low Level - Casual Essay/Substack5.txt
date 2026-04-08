@@ -1,0 +1,61 @@
+Most cancer patients and clinicians assume that more vitamins and antioxidants can only help, yet the modern data tell a very different—and often uncomfortable—story.
+
+For the past three decades, we have quietly conducted one of the largest, real‑world experiments in supplement pharmacology in human history: mandatory folic acid fortification, widespread high‑dose B‑vitamin use, and aggressive marketing of antioxidant “immune support” to people at risk for or living with cancer. Large randomized trials and cohort studies now suggest that, depending on dose, timing, and tumor context, some of these same agents can increase cancer incidence, accelerate progression, or blunt the effects of chemotherapy and radiation.
+
+Folate, B12, vitamin E, selenium, NAC, CoQ10, and other antioxidant supplements occupy a strange space in oncology—they are simultaneously essential for normal physiology and plausibly harmful when layered indiscriminately on top of modern cancer care. This post matters because it steps back from simplistic “pro‑” or “anti‑supplement” narratives and instead asks the harder question that actually affects patient outcomes: when do these compounds function as allies for normal tissue, and when do they become covert allies for the tumor instead? - Paul
+
+This post provides a review for patients and clinicians alike on how to approach vitamins and antioxidants in patients with cancer. .. this happens to be an important issue.
+
+I removed the pay-wall below to provide this important post to all readers. The pay-wall did not work exactly as I had expected.
+
+Folic Acid
+
+Folic acid (the synthetic form of folate) also known as Vitamin B9 is a water-soluble B vitamin found in leafy greens, legumes and cereals. In the US folate supplementation of flour is mandated. Even in well-nourished Western societies, routine supplementation of pregnant women with folate significantly reduces the risk of neural tube defects. Observational studies in the 1980 s suggested that a low-folate diet increased the risk of heart disease and colorectal cancer.(1) The enthusiasm for vitamin B supplementation led to studies to determine if it could reduce these diseases. Unfortunately, these studies proved harmful (high dose folate).
+
+Folic acid has a dual relationship with cancer: adequate folate seems to help prevent cancer initiation, but high-dose folic acid may accelerate growth of existing pre‑cancerous or cancer cells.(2) This is one of the clearest examples in nutrition where dose, form, and timing fundamentally change biological effect.
+
+Why folate matters in cancer biology
+
+Folate is essential for one‑carbon metabolism, which supports DNA synthesis, repair, and methylation; rapidly dividing cells (including tumors) depend heavily on these pathways (see figure1).(3)
+
+Antifolate chemotherapy (e.g., methotrexate, pemetrexed) works by blocking folate-dependent steps in nucleotide synthesis, underscoring how critical folate metabolism is for cancer cells.(4)
+
+Potential benefits: prevention and normal tissue protection
+
+Low folate status is linked in many epidemiologic studies to a higher risk of colorectal adenomas and colorectal cancer; people with the highest folate levels often show about 20–40% lower risk than those with the lowest levels.(5)
+
+In long-term multivitamin users, ≥400 μg/day folic acid for ≥15 years was associated with up to ~75% lower colorectal cancer risk in one cohort of women.​(2)
+
+Adequate folate reduces DNA strand breaks and abnormal DNA methylation, mechanisms that can help prevent early carcinogenic changes in normal tissues.
+
+Some small intervention studies show that physiological folic acid doses can improve biomarkers of colorectal mucosal health and reverse precancerous changes, though clinical impact is modest and data are limited.(5)
+
+Potential harms: promotion of existing neoplasia
+
+Experimental and translational data suggest a “U‑shaped” effect: folate deficiency may favor cancer initiation, whereas excess folic acid can promote growth of established neoplastic foci.(5)
+
+In colorectal models, modest folic acid supplementation (about 4–10× dietary requirement) tends to suppress tumor development in normal mucosa, but very high supplemental doses enhance growth of existing tumors or advanced lesions.(2)
+
+Human trial data on cancer risk
+
+Pooled analyses of randomized trials (typical folic acid doses up to about 1 mg/day for ~5 years) generally show no major increase or decrease in overall cancer incidence within the first 5 years of treatment.
+
+In observational studies, lower homocysteine levels are associated with lower rates of coronary heart disease and stroke. Folic acid and vitamins B6 and B12 lower homocysteine levels. In 2006 the HOPE2 study assessed whether supplementation with these vitamins reduced the risk of major cardiovascular events in patients with vascular disease. (6) The HOPE2 found that supplementation with folate, vitamin B6 and B12 failed to reduce heart disease. However, the study demonstrated a worrisome 36% increased risk of colon cancer (not statistically significant) and a 21% increased risk of prostate cancer.
+
+A Norwegian trial using 0.8 mg/day folic acid plus vitamin B12 0.4mg/day in patients with cardiovascular disease reported higher overall cancer incidence and cancer mortality and all-cause mortality (HR ~1.2), raising concern that in some settings folic acid could promote cancer.(7) In this study Vitamin B(6) treatment was not associated with any significant effects. It should be noted that folate supplementation of grains and other produce is not performed in Norway.
+
+A large, randomized trial (Aspirin/Folate Polyp Prevention Study) raised concern that folic acid 1 mg/day increased risk of new advanced colorectal lesions and possibly multiple adenomas among patients with prior adenomas, suggesting a tumor‑promoting effect in high‑risk mucosa.(5)
+
+Meta-analyses and cohort studies suggest site‑specific differences:
+
+Colorectal: mostly protective or neutral at physiological intakes; potential promotion at high supplemental doses, especially in people with existing neoplasia.(2)
+
+Prostate: higher serum folate and folic acid supplementation have been associated in some studies with increased prostate cancer risk.​(5)
+
+Breast and others: evidence is mixed and often suggests a U‑shaped relationship, with risk lowest at intermediate folate levels.(5)
+
+High folate can:
+
+Increase DNA methylation of tumor suppressor genes
+
+Promote oncogene silencing/activation patterns favorable to cancer survival

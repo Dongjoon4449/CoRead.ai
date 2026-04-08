@@ -1,0 +1,43 @@
+
+Overview. The AI Scientist has three main phases (Figure 1): (1) Idea Generation, (2) Experimental Iteration, and (3) Paper Write-up. After the write-up, we introduce and validate an
+LLM-generated review to assess the quality of the generated paper (Section 4). We provide The A I
+Sc ient ist with a starting code template that reproduces a lightweight baseline training run from a
+popular model or benchmark. For example, this could be code that trains a small transformer on the
+works of Shakespeare (Karpathy, 2022), a classic proof-of-concept training run from natural language
+processing that completes within a few minutes. The A I Sc ient ist is then free to explore any
+possible research direction. The template also includes a LaTeX folder that contains style files and
+section headers, along with simple plotting code. We provide further details on the templates in
+Section 6, but in general, each run starts with a representative small-scale experiment relevant to
+the topic area. The focus on small-scale experiments is not a fundamental limitation of our method,
+but simply for computational efficiency reasons and compute constraints on our end. We provide the
+prompts for all stages in Appendix A.
+1. Idea Generation. Given a starting template, The AI Scientist first “brainstorms” a diverse set
+of novel research directions. We take inspiration from evolutionary computation and open-endedness
+research (Brant and Stanley, 2017; Lehman et al., 2008; Stanley, 2019; Stanley et al., 2017) and
+iteratively grow an archive of ideas using LLMs as the mutation operator (Faldor et al., 2024; Lehman
+et al., 2022; Lu et al., 2024b; Zhang et al., 2024). Each idea comprises a description, experiment
+execution plan, and (self-assessed) numerical scores of interestingness, novelty, and feasibility. At each
+iteration, we prompt the language model to generate an interesting new research direction conditional
+on the existing archive, which can include the numerical review scores from completed previous ideas.
+We use multiple rounds of chain-of-thought (Wei et al., 2022) and self-reflection (Shinn et al., 2024)
+to refine and develop each idea. After idea generation, we filter ideas by connecting the language
+model with the Semantic Scholar API (Fricke, 2018) and web access as a tool (Schick et al., 2024).
+This allows The AI Scientist to discard any idea that is too similar to existing literature.
+2. Experiment Iteration. Given an idea and a template, the second phase of The AI Scientist
+first executes the proposed experiments and then visualizes its results for the downstream write-up.
+The AI Scientist uses Aider to first plan a list of experiments to run and then executes them
+in order. We make this process more robust by returning any errors upon a failure or time-out (e.g.
+experiments taking too long to run) to Aider to fix the code and re-attempt up to four times.
+After the completion of each experiment, Aider is then given the results and told to take notes in
+the style of an experimental journal. Currently, it only conditions on text but in future versions, this
+could include data visualizations or any modality. Conditional on the results, it then re-plans and
+implements the next experiment. This process is repeated up to five times. Upon completion of
+4
+The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
+experiments, Aider is prompted to edit a plotting script to create figures for the paper using Python.
+The AI Scientist makes a note describing what each plot contains, enabling the saved figures
+and experimental notes to provide all the information required to write up the paper. At all steps,
+Aider sees its history of execution.
+Note that, in general, the provided initial seed plotting and experiment templates are small, selfcontained files. The AI Scientist frequently implements entirely new plots and collects new
+metrics that are not in the seed templates. This ability to arbitrarily edit the code occasionally leads
+to unexpected outcomes (Section 8).

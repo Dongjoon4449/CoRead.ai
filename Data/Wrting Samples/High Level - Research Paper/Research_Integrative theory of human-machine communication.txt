@@ -1,0 +1,99 @@
+To develop a theory is to answer the fundamental “why”
+question about observed regularities in the focal phenomenon
+of interest (Berger et al., 2010). As such, to theorize HMC,
+one needs to identify consistent patterns in people’s reactions
+to machines, propose the mechanisms to explain why such
+patterns exist, and put them to empirical tests for validation.
+Can mindlessness and/or machine heuristic serve as the core
+mechanism that predicts and explains the processes and
+effects of HMC? Are there any alternative explanations?
+More important, do we need a theory exclusively about
+HMC or can it be subsumed within the purview of a general
+communication theory?
+In attempts to address these questions, the current essay
+reviewed how mindlessness and machine heuristic have been
+conceptualized and operationalized in the literature and
+raised some questions about their viability as a theoretical explanation
+for CASA in particular, and for HMC in general.
+After identifying potential incompatibilities, an alternative
+model informed by the authenticity model of computermediated
+communication (Lee, 2020) was proposed to reconcile
+the two research traditions and develop an integrative
+theory of HMC. Although the authenticity model was developed
+for human–human communication via computer, it may
+also help explain human communication with computer by
+integrating the source type (human vs. machine) as a variable.
+With the seamless integration of AI technology into numerous
+applications and services, it has become critical to ensure
+transparency concerning the specific roles and functions of AI
+from the ethical standpoint, but less clear is how users process
+such information, and with what consequences. Both CASA
+and machine heuristic studies assume that people are mindful
+of the source, even if they often fail to adjust their expectations
+and reactions accordingly. However, recent findings
+(e.g., Lee et al., 2022; Tandoc et al., 2020) suggest that people
+may not be sufficiently mindful of the source, unless they need
+to. Insofar as they enjoy the conversation, obtain useful information
+from the news article, and appreciate the song they listen
+to, why should they care who does the talking, wrote the
+news, and composed the song? After all, we are cognitive
+misers (Fiske & Taylor, 1984). If so, minding the source, as a
+cue, and relying on associated cognitive shortcut (i.e., machine
+heuristic) to make judgments and decisions, which the
+ELM has considered as an indication of less mindful processing,
+may in fact reflect rather effortful and elaborate processing
+of communication.
+Moreover, recent technological breakthroughs seem to
+challenge the CASA’s key premise that it is unreasonable and
+irrational to treat computers like humans. For instance, we
+are witnessing an increasing number of virtual humans who
+look like a human, dance like a human, and talk like a human
+(https://www.virtualhumans.org/). Why then should following
+a virtual influencer be different from admiring BTS or
+BLACKPINK? When conversing with a social chatbot who is
+always there whenever I need him/her and listens to whatever
+I want to vent without worrying about a leak (Brandtzaeg
+et al., 2022), disregarding the agent’s ontological identity can
+be a fairly rational choice to gratify one’s hedonistic needs,
+maximizing the pleasure and emotional support one can derive
+from the “friendship.” In the age of multiple identities
+that are in constant flux, it may not be too different from engaging
+with a role-playing partner in the metaverse, wherein
+users are fully aware that the avatars’ appearance and personality
+may not match the “real” person behind the cartoon
+character, and yet, suspend their disbelief to get fully immersed
+in the virtual world and enjoy the experience.
+Once people mind the source, then their beliefs about
+machines in general will direct how the source type affects
+their subsequent reactions. Thus far, studies employing the
+machine heuristic tend to focus on machines’ agentic, rather
+than communal, qualities of largely positive connotations,
+such as being objective, accurate, precise, and error-free (see
+Molina & Sundar, 2022 for an exception). While those are undoubtedly core traits people seem to associate with
+machines at the moment, more systematic approaches are
+called for, if we are to use this construct to account for a wide
+variety of HMC beyond task-oriented domains. Perhaps a
+more comprehensive set of adjectives people use to describe
+machines can be gleaned inductively from a large-scale survey
+with a representative sample, which will help identify dimensions
+on which people evaluate machines, either similarly or
+differently, vis-a` -vis humans. In this regard, Hong et al.
+(2022) proposed “creative machine heuristics” to capture
+what human-like traits people expect of machines, focusing
+on creativity in particular. Although the attempt to expand
+the repertoire of machine heuristic seems well justified, they
+focused on “how people think about machines being creative”
+(p. 2) rather than how creative people think machines
+are (or can be). If machine heuristic serves as a moderator of the source
+effects, something one brings into the communication context,
+then what would contribute to such beliefs? Usual suspects include
+the exposure to media discourse, education, computer
+proficiency, and direct or indirect experiences with machines.
+Less obvious is the role of dissatisfaction with a human equivalent.
+In one study (Lee et al., 2022), for instance, after witnessing
+a human moderator’s unsatisfactory performance,
+participants were more likely to endorse AI heuristic, suggesting
+that people consider AI as a potential replacement of suboptimal
+human agents. Possibly, disappointment with human
+performance may lead people to project more optimistic or
+wishful images unto AI.

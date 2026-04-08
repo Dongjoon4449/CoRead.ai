@@ -1,0 +1,35 @@
+After years of deep-sea sleuthing, National Geographic Explorer Katy Croff Bell has created a treasure map. It’s not drawn on tattered parchment, nor is there one big ‘X’ that marks the spot. Rather, it’s a 3D interactive globe with thousands of dots speckled across the seas.
+
+For Bell, each point is a coordinate to collect something more valuable than gold, jewels, or doubloons: a rare glimpse of the bottom of the ocean. On Wednesday, the Ocean Discovery League, where Bell is founder and president, announced the release of the map, which highlights 10,000 target spots on the global deep seafloor, or underwater areas below 650 feet. Bell’s team simultaneously published the research methods used to construct the map in the journal Science Advances.
+
+“I’m hoping it’s going to be a new era for deep-sea exploration and discovery,” says Bell.
+
+The work is a continuation of a study Bell and her team published in 2025 that estimated only 0.001 percent of the seafloor—an area she likens to the size of Rhode Island—has ever been seen by human eyes. Now, in addition to the digital map, Bell is helping develop a pioneering deep-submergence lander (called the Deep Ocean Research and Imaging System, or DORIS) that will allow researchers to quickly and affordably survey unseen spots on the ocean floor, as National Geographic reported last year.
+
+Bell's research was supported by the National Geographic Society and Rolex Perpetual Planet Ocean Expeditions, as part of their ambitious project to send researchers to study the Earth’s five oceans.
+
+(Want to see the bottom of the ocean? Katy Croff Bell has a tool for that)
+
+The team’s goal in releasing the interactive map and making it widely available is to provide other researchers and maritime explorers with a guide to never-before-seen seafloor locations. At these sites, researchers can then deploy submersibles, remote underwater vehicles, or the organization’s own low-cost deep-sea DORIS tool to record video of what lies below in hopes of expanding our knowledge of the ocean floor.
+
+“Often as deep-sea scientists, sampling is done per chance or per historical sampling done by others or biased towards interesting environments,” says National Geographic Explorer Sheena Talma, a marine biologist from Seychelles who researches fish in the Southwest Indian Ocean, but was not involved in the paper. She says she would use both the new map and DORIS in her work if the opportunity arrived and it aligned with her research goals.
+
+“Having a point on a map really helps when you do not know where to start,” she says
+
+Diving through data
+To create their map of 10,000 points, Bell and her team first had to construct a database of the known locations where people have dived. That required combing through the historical record and scientific publications, as well as sending emails and making cold calls to deep-sea researchers worldwide and requesting the geolocations of their dives. The dataset they made spans from 1958 to 2024 and includes nearly 44,000 deep-sea dives.
+
+When they probed the data, Bell and her team found that most of those dives represented only 12,000 unique locations, most of which were clustered around high-income countries such as the United States, Japan, and New Zealand. If each of the 10,000 points on the map is explored, “we're going to almost double the number of unique locations around the world” that have been seen, Bell says.
+
+For Kristen Johannes, a project scientist at the University of California, Santa Barbara, and lead author of the paper, the map is a puzzle she’s excited to solve with collaborators around the globe.
+
+(In the ocean's 'twilight zone,' divers risk their lives in search of mysteries)
+
+“For the last 50 or 70 years, we've been doing the edge pieces around our countries, in jurisdictional, exclusive economic zones,” says Johannes, who previously worked at Ocean Discovery League. “But now we really need to start filling in the middle of that picture and learning about the complete set of possible environments, organisms, and ecosystems in our deep ocean."
+
+The team wanted the spots they highlighted to provide a mosaic of the full diversity of the vast and wondrous deep-ocean environment. So after identifying the locations of previous deep-sea dives, they next had to determine the metrics by which they would evaluate the rest of the ocean. They came up with four: seafloor depth, seafloor shape, seafloor composition, and food availability.
+
+Seafloor depth means the distance from the ocean surface to the bottom. Seafloor shape is the geomorphology of the site—for example, if it has seamounts, abyssal plains, or trenches. Seafloor composition refers to what the seafloor is made of, including the types of sediments and features it contains, such as hard crusts, hydrothermal vents, and “ooze,” which is sediment composed in part of the skeletons of dead microscopic marine animals. Food availability refers to the amount of food remnants originating on the surface—like phytoplankton, a whale fall, or poop—that eventually reach the bottom of the ocean.
+
+They also wanted the map’s locations to focus on areas not clustered around high-income countries, to correct for the historical biases of previous dives; instead, they highlighted often-overlooked or under-resourced places for deep-sea research, such as The Gambia, Sri Lanka, and Trinidad and Tobago.
+
