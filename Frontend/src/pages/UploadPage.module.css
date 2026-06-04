@@ -120,8 +120,10 @@
 
 .content {
   flex: 1;
+  min-height: 0;               /* flex item이 부모 높이를 초과하지 않도록 */
   display: grid;
   grid-template-columns: minmax(0, 1.8fr) minmax(360px, 0.9fr);
+  grid-template-rows: 1fr;     /* 단일 행이 컨테이너 높이 전체를 채우도록 */
   gap: 40px;
   max-width: 1440px;
   width: 100%;
@@ -139,6 +141,7 @@
   padding: 28px;
   display: flex;
   flex-direction: column;
+  min-height: 0;               /* grid item이 행 높이를 초과하지 않도록 */
   overflow: hidden;
 }
 
@@ -277,6 +280,7 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
+  min-height: 0;               /* grid item이 행 높이를 초과하지 않도록 */
   overflow-y: auto;
 }
 
@@ -467,94 +471,267 @@
   padding: 8px 0;
 }
 
-.scoreRow {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
+/* Section title */
 
-.scoreNum {
-  display: flex;
-  align-items: baseline;
-  gap: 3px;
-  flex-shrink: 0;
-}
-
-.scoreValue {
-  font-size: 2.2rem;
+.resultSectionTitle {
+  font-size: 0.82rem;
   font-weight: 700;
-  color: var(--color-text);
-  font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
-.scoreUnit {
-  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--color-muted);
+  margin-bottom: 10px;
 }
 
-.scoreRight {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.resultSectionSub {
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
-.levelBadge {
-  font-weight: 700;
-  font-size: 0.85rem;
-}
+/* ── Score Card ── */
 
-.disclaimer {
-  font-size: 0.78rem;
-  color: var(--color-muted);
-  line-height: 1.4;
-}
-
-.metricList {
+.scoreCard {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 14px 16px;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.metricItem {
+.scoreCardRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.scoreTextBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 1.1;
+}
+
+.scoreBig {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-text);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.scoreSlash {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
+.scoreInfoBlock {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.levelPill {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: rgba(84, 122, 149, 0.12);
+  border-radius: 6px;
+  padding: 2px 8px;
+  align-self: flex-start;
+}
+
+.scoreDisclaimer {
+  font-size: 0.76rem;
+  color: var(--color-muted);
+  line-height: 1.45;
+}
+
+/* Flow Spectrum */
+
+.spectrumRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spectrumLabel {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.spectrumBarWrapper {
+  flex: 1;
+  position: relative;
+  height: 8px;
+}
+
+.spectrumGradient {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+}
+
+.spectrumDot {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 13px;
+  height: 13px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  border: 2.5px solid white;
+  box-shadow: 0 1px 5px rgba(84, 122, 149, 0.5);
+}
+
+/* ── Writing Style ── */
+
+.genreList {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.genreItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.genreItemTop {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.genreName {
+  flex: 1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.genrePct {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--color-text);
+  flex-shrink: 0;
+}
+
+.genreTrack {
+  height: 5px;
+  background: #D4DCE4;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.genreFill {
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+
+/* ── AI Insight ── */
+
+.insightCard {
+  background: rgba(84, 122, 149, 0.08);
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.insightHeader {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.insightTitle {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.insightBody {
+  font-size: 0.83rem;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* ── Metrics Accordion ── */
+
+.accordionToggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.accordionLabel {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.metricMiniCard {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 10px 12px;
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.metricHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.metricName {
-  font-size: 0.85rem;
-  color: var(--color-text);
+.metricMiniName {
+  font-size: 0.74rem;
+  color: var(--color-muted);
   font-weight: 500;
+  line-height: 1.3;
 }
 
-.metricScore {
-  font-size: 0.85rem;
-  font-weight: 600;
+.metricMiniValue {
+  font-size: 1.1rem;
+  font-weight: 700;
   color: var(--color-text);
+  line-height: 1.2;
 }
 
-.metricTrack {
-  height: 4px;
-  background: var(--color-border);
+.metricMiniTrack {
+  height: 3px;
+  background: #D4DCE4;
   border-radius: 999px;
   overflow: hidden;
+  margin-top: 2px;
 }
 
-.metricFill {
+.metricMiniFill {
   height: 100%;
   background: var(--color-primary);
   border-radius: 999px;
   transition: width 0.4s ease;
-}
-
-.metricFeedback {
-  font-size: 0.78rem;
-  color: var(--color-muted);
-  line-height: 1.4;
 }
