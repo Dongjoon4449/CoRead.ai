@@ -155,6 +155,30 @@ def analyze(text: str) -> dict:
         "estimated_level": _estimated_level(estimated_score / 100),
         "disclaimer":      DISCLAIMER,
         "metrics":         metrics,
+        "genre":           _genre_classification(metrics, total_weight),
+    }
+
+
+def _genre_classification(metrics: dict, total_weight: float) -> dict:
+    """
+    Derive genre probabilities from per-metric level_probs.
+      High   → Academic Paper
+      Middle → Magazine / Editorial
+      Low    → Blog / Casual Writing
+    Each metric's Low+Middle+High sums to 1.0, so the weighted
+    average across metrics also sums to 1.0 — no extra normalization needed.
+    """
+    if total_weight == 0:
+        return {"academic_paper": 33.3, "magazine_editorial": 33.3, "blog_casual": 33.4}
+
+    academic = sum(metrics[m]["level_probs"]["High"]   * METRIC_WEIGHTS[m] for m in metrics) / total_weight
+    magazine = sum(metrics[m]["level_probs"]["Middle"] * METRIC_WEIGHTS[m] for m in metrics) / total_weight
+    blog     = sum(metrics[m]["level_probs"]["Low"]    * METRIC_WEIGHTS[m] for m in metrics) / total_weight
+
+    return {
+        "academic_paper":      round(academic * 100, 1),
+        "magazine_editorial":  round(magazine * 100, 1),
+        "blog_casual":         round(blog     * 100, 1),
     }
 
 
