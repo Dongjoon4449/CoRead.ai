@@ -75,6 +75,36 @@ def compute_similarities(embeddings: np.ndarray) -> list[float]:
     return similarities
 
 
+# Raw cosine similarity 기반 level 분류 임계값
+# (테스트 데이터 실측치 근거: Sample A mean 0.35, Sample B shift 0.12, Sample C mean 0.03)
+_LEVEL_THRESHOLDS: list[tuple[float, str]] = [
+    (0.70, "high"),
+    (0.55, "good"),
+    (0.30, "medium"),
+    (0.15, "low"),
+]
+
+
+def classify_level(similarity: float | None) -> str:
+    """
+    Raw cosine similarity 값을 5단계 level로 분류합니다.
+
+    Thresholds (raw cosine similarity 기준):
+        >= 0.70  → high      (초록: 자연스러운 연결)
+        >= 0.55  → good      (연초록: 양호한 연결)
+        >= 0.30  → medium    (노랑: 중간 전환)
+        >= 0.15  → low       (연주황: 약한 전환)
+        <  0.15  → very-low  (빨강: 급격한 주제 전환)
+        None     → base      (첫 문장, 비교 대상 없음)
+    """
+    if similarity is None:
+        return "base"
+    for threshold, level in _LEVEL_THRESHOLDS:
+        if similarity >= threshold:
+            return level
+    return "very-low"
+
+
 def analyze_flow(text: str) -> dict:
     """
     텍스트의 문장 흐름을 분석합니다.
@@ -82,8 +112,17 @@ def analyze_flow(text: str) -> dict:
     Returns:
         {
             "sentences":      ["문장1", "문장2", ...],
-            "similarities":   [None, 0.82, 0.45, ...],  # 첫 항목은 None
-            "sentence_count": int
+            "similarities":   [None, 0.82, 0.45, ...],
+            "sentence_count": int,
+            "flow": [
+                {
+                    "text":       str,
+                    "similarity": float | None,
+                    "normalized": float | None,  # min-max (문서 내)
+                    "level":      str,
+                },
+                ...
+            ]
         }
     """
     if not text or not text.strip():
@@ -99,13 +138,35 @@ def analyze_flow(text: str) -> dict:
     embeddings = embed_sentences(sentences)
     raw_sims = compute_similarities(embeddings)
 
-    # 첫 문장은 비교 대상 없음 → None
     similarities: list[float | None] = [None] + raw_sims
+
+    # min-max 정규화 (None 제외)
+    valid = [s for s in similarities if s is not None]
+    min_s = min(valid) if valid else 0.0
+    max_s = max(valid) if valid else 1.0
+
+    def _normalize(sim: float | None) -> float | None:
+        if sim is None:
+            return None
+        if max_s == min_s:
+            return 0.5
+        return round((sim - min_s) / (max_s - min_s), 4)
+
+    flow = [
+        {
+            "text":       sent,
+            "similarity": round(sim, 4) if sim is not None else None,
+            "normalized": _normalize(sim),
+            "level":      classify_level(sim),
+        }
+        for sent, sim in zip(sentences, similarities)
+    ]
 
     return {
         "sentences":      sentences,
         "similarities":   similarities,
         "sentence_count": len(sentences),
+        "flow":           flow,
     }
 
 
