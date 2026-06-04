@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg:       #E8EDF2;
+  --color-text:     #2C3947;
+  --color-primary:  #547A95;
+  --color-white:    #FFFFFF;
+  --color-border:   #D4DCE4;
+  --color-muted:    #7A94A8;
+
+  --flow-high:      #C8E6C9;
+  --flow-good:      #BBDEFB;
+  --flow-medium:    #FFF9C4;
+  --flow-low:       #FFCCBC;
+
+  --status-danger:  #EF5350;
+  --status-warning: #FFA726;
+  --status-success: #66BB6A;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
